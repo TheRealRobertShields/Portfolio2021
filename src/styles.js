@@ -12,9 +12,14 @@ export default makeStyles((theme) => ({
     padding: 0,
   },
   video: {
-    position: 'fixed',
     zIndex: -1,
+    position: 'absolute',
+    top: 0,
+    left: 0,
+    display: 'block',
     width: '100%',
+    height: '100%',
+    objectFit: 'cover',
   },
   root: {
     flexGrow: 1,
