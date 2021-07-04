@@ -1,24 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import useStyles from './styles';
+import './styles.css'
+import Navbar from './components/Navbar/Navbar.jsx'
+import coffee from './assets/coffee.mp4'
+
+import { ThemeProvider, createMuiTheme } from '@material-ui/core/styles';
+
+const theme = createMuiTheme({
+  typography: {
+    fontFamily: [
+      'Montserrat',
+      'sans-serif',
+    ].join(','),
+  },});
 
 function App() {
+  const classes = useStyles()
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ThemeProvider theme={theme}>
+      <div className={classes.app}>
+        <video className={classes.video} autoPlay loop muted>
+            <source src={coffee} type='video/mp4' />
+        </video>
+        <Navbar />
+      </div>
+    </ThemeProvider>
   );
 }
 
