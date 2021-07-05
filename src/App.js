@@ -30,6 +30,7 @@ function App() {
       <CssBaseline />
       <ThemeProvider theme={theme}>
         <div className={classes.app}>
+          <Navbar />
           <Switch>
             <Route exact path='/'>
               <Home />
@@ -44,7 +45,6 @@ function App() {
               <Social />
             </Route>
           </Switch>
-          <Navbar />
         </div>
       </ThemeProvider>
       </Router>

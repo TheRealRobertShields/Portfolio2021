@@ -11,6 +11,7 @@ const Projects = () => {
          <video className={classes.video} autoPlay loop muted>
             <source src={thinking} type='video/mp4' />
          </video>
+         
       </div>
    )
 }

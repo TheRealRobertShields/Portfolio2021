@@ -1,15 +1,24 @@
 import { makeStyles } from '@material-ui/core/styles';
 
 export default makeStyles((theme) => ({
-   app: {
-      backgroundColor: 'transparent',
-      color: 'white',
+   container: {
       display: 'flex',
-      flexDirection: 'column',
-      justifyContent: 'flex-start',
+      flexDirection: 'row',
+      flexWrap: 'wrap',
+      justifyContent: 'center',
       alignItems: 'center',
-      height: '100vh',
-      padding: 0,
+      height: '90vh',
+      width: '90vw',
+   },
+   card: {
+      display: 'flex',
+      flexDirection: 'row',
+      justifyContent: 'center',
+      alignItems: 'center',
+      width: '150px',
+      height: '200px',
+      backgroundColor: 'rgba(255, 255, 255, 0.25)',
+      margin: '20px',
    },
    video: {
       zIndex: -1,
@@ -20,8 +29,5 @@ export default makeStyles((theme) => ({
       width: '100%',
       height: '100%',
       objectFit: 'cover',
-   },
-   root: {
-      flexGrow: 1,
    },
 }));
