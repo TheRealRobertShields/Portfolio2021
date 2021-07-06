@@ -8,6 +8,7 @@ export default makeStyles((theme) => ({
       alignItems: 'center',
       width: '90vw',
       height: '90vh',
+      marginTop: '125px',
    },
    container: {
       display: 'flex',

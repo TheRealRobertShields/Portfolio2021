@@ -2,7 +2,7 @@ import React from 'react'
 
 import useStyles from './styles';
 import coffee from '../../assets/coffee.mp4'
-import { Toolbar, Typography } from '@material-ui/core';
+import { Toolbar, Typography, CssBaseline } from '@material-ui/core';
 import Github from '../../assets/github.png'
 
 
@@ -11,9 +11,6 @@ const Social = () => {
    
    return (
       <>
-         <Toolbar disableGutters/>
-         <Toolbar disableGutters/>
-         <Toolbar disableGutters/>
          <div className={classes.center}>
             <Typography variant='h3' align='center' style={{fontSize:'calc(8px + 2vw)'}}>Feel free to add/message me!</Typography>
             <div className={classes.container}>
