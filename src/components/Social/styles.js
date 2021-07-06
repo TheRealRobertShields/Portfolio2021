@@ -16,6 +16,7 @@ export default makeStyles((theme) => ({
       justifyContent: 'center',
       alignItems: 'center',
       width: '90vw',
+      paddingBottom: '50px',
    },
    card: {
       display: 'flex',
