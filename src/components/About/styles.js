@@ -13,7 +13,7 @@ export default makeStyles((theme) => ({
    },
    video: {
       zIndex: -1,
-      position: 'absolute',
+      position: 'fixed',
       top: 0,
       left: 0,
       display: 'block',
