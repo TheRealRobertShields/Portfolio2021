@@ -12,6 +12,8 @@ const Social = () => {
    return (
       <>
          <Toolbar disableGutters/>
+         <Toolbar disableGutters/>
+         <Toolbar disableGutters/>
          <div className={classes.center}>
             <Typography variant='h3' align='center' style={{fontSize:'calc(8px + 2vw)'}}>Feel free to add/message me!</Typography>
             <div className={classes.container}>
