@@ -13,7 +13,7 @@ const Social = () => {
       <>
          <Toolbar disableGutters/>
          <div className={classes.center}>
-            <Typography variant='h3' align='center'>Feel free to add/message me!</Typography>
+            <Typography variant='h3' align='center' style={{fontSize:'calc(8px + 2vw)'}}>Feel free to add/message me!</Typography>
             <div className={classes.container}>
                <a href='https://github.com/TheRealRobertShields' target='_blank' without rel="noreferrer" className={classes.card}>
                   <img src={Github} alt='github' />
@@ -31,10 +31,11 @@ const Social = () => {
          </div>
 
 
-
-         <video className={classes.video} autoPlay loop muted>
-            <source src={coffee} type='video/mp4' />
-         </video>
+         <div className={classes.videoWrapper}>
+            <video className={classes.video} autoPlay loop muted>
+               <source src={coffee} type='video/mp4' />
+            </video>
+         </div>
       </>
    )
 }

@@ -6,8 +6,8 @@ export default makeStyles((theme) => ({
       flexDirection: 'column',
       justifyContent: 'center',
       alignItems: 'center',
-      height: '90vh',
       width: '90vw',
+      height: '90vh',
    },
    container: {
       display: 'flex',
@@ -44,7 +44,7 @@ export default makeStyles((theme) => ({
    },
    video: {
       zIndex: -1,
-      position: 'absolute',
+      position: 'fixed',
       top: 0,
       left: 0,
       display: 'block',
