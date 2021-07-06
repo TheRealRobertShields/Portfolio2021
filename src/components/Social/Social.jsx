@@ -2,7 +2,7 @@ import React from 'react'
 
 import useStyles from './styles';
 import coffee from '../../assets/coffee.mp4'
-import { Toolbar, Typography, CssBaseline } from '@material-ui/core';
+import { Typography } from '@material-ui/core';
 import Github from '../../assets/github.png'
 
 
