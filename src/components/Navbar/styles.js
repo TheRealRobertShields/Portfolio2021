@@ -25,5 +25,9 @@ export default makeStyles((theme) => ({
       borderBottom: '1px solid #939393',
       color: 'white',
       textDecoration: 'none',
+      transition: 'all 0.3s',
+      '&:hover': {
+         borderBottom: '15px solid #939393',
+      },
    },
 }));

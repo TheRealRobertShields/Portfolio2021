@@ -1,7 +1,7 @@
 import React from 'react'
 
 import useStyles from './styles';
-import coffee from '../../assets/coffee.mp4'
+// import coffee from '../../assets/coffee.mp4'
 import { Typography } from '@material-ui/core';
 import Github from '../../assets/github.png'
 
@@ -12,7 +12,7 @@ const Social = () => {
    return (
       <>
          <div className={classes.center}>
-            <Typography variant='h3' align='center' style={{fontSize:'calc(8px + 2vw)'}}>Feel free to add/message me!</Typography>
+            <Typography variant='h3' align='center' style={{fontSize:'calc(8px + 1vw)'}}>Feel free to add/message me!</Typography>
             <div className={classes.container}>
                <a href='https://github.com/TheRealRobertShields' target='_blank' without rel="noreferrer" className={classes.card}>
                   <img src={Github} alt='github' />
@@ -30,11 +30,11 @@ const Social = () => {
          </div>
 
 
-         <div className={classes.videoWrapper}>
+         {/* <div className={classes.videoWrapper}>
             <video className={classes.video} autoPlay loop muted>
                <source src={coffee} type='video/mp4' />
             </video>
-         </div>
+         </div> */}
       </>
    )
 }

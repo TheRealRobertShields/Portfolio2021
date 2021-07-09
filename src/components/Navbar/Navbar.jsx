@@ -11,7 +11,7 @@ const Navbar = ({ font }) => {
 
    return (
       <>
-         <AppBar elevation={0} color='transparent'>
+         <AppBar elevation={0} color='transparent' position='relative'>
             <Toolbar disableGutters>
                <Typography component={Link} to='/' className={classes.title}>
                   Robert Shields
