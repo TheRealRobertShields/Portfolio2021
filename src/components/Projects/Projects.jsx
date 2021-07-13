@@ -22,19 +22,19 @@ const Projects = () => {
          <div className={classes.container}>
             <a href='https://fotogrid.netlify.app/' target='_blank' without rel="noreferrer" className={classes.card}>
                <img src={fotogrid} alt='fotogrid' style={{width: 'calc(150px + 10vw)'}} />
-               <p>TheRealRobertShields</p>
+               <p>FotoGrid</p>
             </a>
             <a href='https://fotogrid.netlify.app/' target='_blank' without rel="noreferrer" className={classes.card}>
                <img src={fotogrid} alt='fotogrid' style={{width: 'calc(150px + 10vw)'}} />
-               <p>TheRealRobertShields</p>
+               <p>FotoGrid</p>
             </a>
             <a href='https://fotogrid.netlify.app/' target='_blank' without rel="noreferrer" className={classes.card}>
                <img src={fotogrid} alt='fotogrid' style={{width: 'calc(150px + 10vw)'}} />
-               <p>TheRealRobertShields</p>
+               <p>FotoGrid</p>
             </a>
             <a href='https://fotogrid.netlify.app/' target='_blank' without rel="noreferrer" className={classes.card}>
                <img src={fotogrid} alt='fotogrid' style={{width: 'calc(150px + 10vw)'}} />
-               <p>TheRealRobertShields</p>
+               <p>FotoGrid</p>
             </a>
 
          </div>
