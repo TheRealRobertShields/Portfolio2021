@@ -56,4 +56,8 @@ export default makeStyles((theme) => ({
       height: '100%',
       objectFit: 'cover',
    },
+   img: {
+      border: '4px solid white',
+      borderRadius: '4px',
+   }
 }));

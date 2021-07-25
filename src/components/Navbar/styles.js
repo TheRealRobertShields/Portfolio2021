@@ -18,7 +18,7 @@ export default makeStyles((theme) => ({
    },
    link: {
       ...theme.typography.button,
-      fontSize: 'calc(6px + 0.5vw)',
+      fontSize: 'calc(10px + 0.5vw)',
       padding: 'calc(1px + 0.125vw) 0',
       marginRight: '2%',
       lineHeight: 'calc(8px + 0.5vw)',

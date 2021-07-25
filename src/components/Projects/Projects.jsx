@@ -5,6 +5,7 @@ import { Typography } from '@material-ui/core';
 // import thinking from '../../assets/thinking.mp4'
 import fotogrid from '../../assets/fotogrid_thumbnail.png'
 import okisfreezedried from '../../assets/okisfreezedried.png'
+import datadoctor from '../../assets/datadoctor.png'
 import useStyles from './styles';
 
 const Projects = () => {
@@ -23,7 +24,11 @@ const Projects = () => {
          <div className={classes.container}>
             <a href='https://okisfreezedried.com' target='_blank' without rel="noreferrer" className={classes.card}>
                <img src={okisfreezedried} alt='okisfreezedried' style={{width: 'calc(150px + 10vw)'}} />
-               <p>okisfreezedried</p>
+               <p>OkisFreezedried</p>
+            </a>
+            <a href='https://data-doctor.netlify.app/' target='_blank' without rel="noreferrer" className={classes.card}>
+               <img src={datadoctor} alt='datadoctor' style={{width: 'calc(150px + 10vw)'}} />
+               <p>DataDoctor</p>
             </a>
             <a href='https://fotogrid.netlify.app/' target='_blank' without rel="noreferrer" className={classes.card}>
                <img src={fotogrid} alt='fotogrid' style={{width: 'calc(150px + 10vw)'}} />

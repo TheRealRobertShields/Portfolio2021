@@ -9,7 +9,6 @@ export default makeStyles((theme) => ({
     justifyContent: 'flex-start',
     alignItems: 'center',
     padding: 0,
-    height: '100%',
   },
   video: {
     zIndex: -1,
