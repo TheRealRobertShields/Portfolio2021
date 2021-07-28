@@ -27,7 +27,7 @@ img {
    flex-direction: row;
    justify-content: flex-end;
    content: 'Front-end ';
-   animation: before 5s linear infinite;
+   animation: before 10s linear infinite;
 }
 @keyframes before {
    0% {
@@ -46,27 +46,49 @@ img {
      content: 'Front-end '
    }
  }
+
+
  .title::after {
-   padding-left: 10px;
-   content: ' 😀';
-   flex-direction: row;
-   animation: after 5s linear infinite;
+   content: '.';
+   color: transparent;
+   background: url(./assets/frontend.png) left center no-repeat;
+   background-repeat: no-repeat;
+   vertical-align: middle;
+   background-size: calc(11px + 1vw);
+   padding-left: calc(11px + 1vw);
+   margin-left: 10px;
+   animation: after 10s cubic-bezier(1, 0, 0, 1) infinite;
  }
  @keyframes after {
     0% {
-      content: " 😀"
+      background: url(./assets/frontend.png);
+      background-size: calc(11px + 1vw);
+      background-repeat: no-repeat;
+      vertical-align: middle;
     }
     25% {
-      content: " 😄"
+      background: url(./assets/backend.png);
+      background-size: calc(11px + 1vw);
+      background-repeat: no-repeat;
+      vertical-align: middle;
     }
     50% {
-      content: ' 😁'
+      background: url(./assets/fullstack.png);
+      background-size: calc(11px + 1vw);
+      background-repeat: no-repeat;
+      vertical-align: middle;
     }
     75% {
-      content: ' 😬'
+      background: url(./assets/application.png);
+      background-size: calc(11px + 1vw);
+      background-repeat: no-repeat;
+      vertical-align: middle;
     }
     100% {
-      content: ' 😀'
+      background: url(./assets/frontend.png);
+      background-size: calc(11px + 1vw);
+      background-repeat: no-repeat;
+      vertical-align: middle;
     }
   }
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');

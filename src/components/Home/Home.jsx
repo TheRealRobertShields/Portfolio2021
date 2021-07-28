@@ -12,8 +12,9 @@ const Home = () => {
       <div className={classes.center}>
          <Container className={classes.titleContainer}>
             <Typography variant='h3' align='center' className='titleAnimated' style={{fontSize:'calc(11px + 1vw)', width:'50%'}}></Typography>
-            <Typography variant='h3' align='center' className='title' style={{fontSize:'calc(11px + 1vw)', width:'50%'}}>Developer</Typography>
+            <Typography variant='h3' align='center' className='title' style={{fontSize:'calc(11px + 1vw)', width:'50%', alignItems: 'center'}}>Developer</Typography>
          </Container>
+         <Typography variant='subtitle2' align='center' style={{fontSize:'calc(8px + 1vw)', width:'50%'}}>🌲🌲Lacey, WA 📍</Typography>
 
          
       </div>
