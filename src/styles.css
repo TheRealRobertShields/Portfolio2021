@@ -16,4 +16,25 @@ img {
    border-radius: 4px;
 }
 
+.titleAnimated::before {
+   content: 'Frontend ';
+   animation: bideTime 5s linear infinite;
+}
+@keyframes bideTime {
+   0% {
+     content: "Frontend "
+   }
+   25% {
+     content: "Backend "
+   }
+   50% {
+     content: 'Fullstack '
+   }
+   75% {
+     content: 'Application '
+   }
+   100% {
+     content: 'Frontend '
+   }
+ }
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');

@@ -1,15 +1,19 @@
 import { makeStyles } from '@material-ui/core/styles';
 
 export default makeStyles((theme) => ({
-   app: {
+   center: {
       backgroundColor: 'transparent',
       color: 'white',
       display: 'flex',
       flexDirection: 'column',
-      justifyContent: 'flex-start',
+      justifyContent: 'center',
       alignItems: 'center',
-      height: '100vh',
+      minHeight: '90vh',
+      width: '90vw',
       padding: 0,
+   },
+   title: {
+      width: '100%',
    },
    video: {
       zIndex: 0,

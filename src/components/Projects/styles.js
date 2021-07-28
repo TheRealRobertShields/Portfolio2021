@@ -6,7 +6,7 @@ export default makeStyles((theme) => ({
       flexDirection: 'column',
       justifyContent: 'center',
       alignItems: 'center',
-      minHeight: '100vh',
+      minHeight: '90vh',
       width: '90vw',
       flexWrap: 'wrap',
       [theme.breakpoints.up('md')]: {

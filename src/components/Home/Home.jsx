@@ -8,8 +8,8 @@ const Home = () => {
    const classes = useStyles()
 
    return (
-      <div className={classes.app}>
-         <Typography variant='h3' align='center' style={{fontSize:'calc(8px + 1vw)', width:'50%'}}>Landing page content coming soon!</Typography>
+      <div className={classes.center}>
+         <Typography variant='h3' align='center' className='titleAnimated' style={{fontSize:'calc(8px + 1vw)', width:'50%'}}>Developer.</Typography>
          
       </div>
    )

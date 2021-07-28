@@ -20,7 +20,7 @@ const Projects = () => {
       </div> */}
 
       <div className={classes.center}>
-         <Typography variant='h3' align='center' style={{fontSize:'calc(8px + 1vw)', width:'50%'}}>Check out some of my projects!</Typography>
+         {/* <Typography variant='h3' align='center' style={{fontSize:'calc(8px + 1vw)', width:'50%'}}>Check out some of my projects!</Typography> */}
          <div className={classes.container}>
             <a href='https://okisfreezedried.com' target='_blank' without rel="noreferrer" className={classes.card}>
                <img src={okisfreezedried} alt='okisfreezedried' style={{width: 'calc(150px + 10vw)'}} />

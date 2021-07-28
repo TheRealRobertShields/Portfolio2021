@@ -7,7 +7,7 @@ export default makeStyles((theme) => ({
       justifyContent: 'center',
       alignItems: 'center',
       width: '90vw',
-      minHeight: '100vh',
+      minHeight: '90vh',
    },
    container: {
       display: 'flex',
