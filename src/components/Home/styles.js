@@ -12,8 +12,11 @@ export default makeStyles((theme) => ({
       width: '90vw',
       padding: 0,
    },
-   title: {
-      width: '100%',
+   titleContainer: {
+      display: 'flex',
+      flexDirection: 'row',
+      justifyContent: 'center',
+      alignItems: 'center',
    },
    video: {
       zIndex: 0,
