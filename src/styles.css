@@ -5,7 +5,7 @@ html, body, #root {
 }
 
 #root {
-   background: linear-gradient(90deg, rgba(68,69,29,1) 0%, rgba(44,27,56,1) 50%, rgba(61,0,0,1) 100%);
+   background: linear-gradient(90deg, rgb(68 0 0) 0%, rgb(167 1 1) 100%);
 }
 
 ::-webkit-scrollbar {

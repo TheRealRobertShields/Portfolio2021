@@ -3,13 +3,14 @@ import { makeStyles } from '@material-ui/core/styles';
 export default makeStyles((theme) => ({
    center: {
       display: 'flex',
-      flexDirection: 'row',
+      flexDirection: 'column',
       justifyContent: 'center',
       alignItems: 'center',
+      minHeight: '100vh',
       width: '90vw',
       flexWrap: 'wrap',
       [theme.breakpoints.up('md')]: {
-         flexWrap: 'nowrap',
+         // flexWrap: 'nowrap',
       },
    },
    container: {
@@ -24,27 +25,32 @@ export default makeStyles((theme) => ({
    card: {
       display: 'flex',
       flexDirection: 'column',
-      justifyContent: 'center',
+      justifyContent: 'space-evenly',
       alignItems: 'center',
       width: 'calc(200px + 10vw)',
       height: 'calc(200px + 10vw)',
       margin: '20px',  
-      backgroundColor: 'rgb(255 255 255 / 3%)',
+      backgroundColor: 'rgb(255 255 255 / 6%)',
       borderRadius: '4px',
       borderLeft: '1px solid rgb(255 255 255 / 5%)',
       borderTop: '1px solid rgb(255 255 255 / 5%)',
       borderRight: '1px solid rgb(255 255 255 / 3%)',
       borderBottom: '1px solid rgb(255 255 255 / 3%)',
       fontSize: 'calc(8px + 0.25vw)',
-      fontWeight: '100',
-      color: 'rgb(255 255 255 / 50%)',
+      color: 'rgb(255 255 255 / 100%)',
       textDecoration: 'none',
-      transition: 'all 0.3s',
+      transition: 'all 0.2s',
       '&:hover': {
-         color: 'rgb(255 255 255 / 100%)',
-         background: 'rgb(255 255 255 / 6%)',
-         transform: 'scale(1.1)'
+         backgroundColor: 'rgb(255 255 255 / 7%)',
+         borderLeft: '1px solid rgb(255 255 255 / 15%)',
+         borderTop: '1px solid rgb(255 255 255 / 15%)',
+         borderRight: '1px solid rgb(255 255 255 / 10%)',
+         borderBottom: '1px solid rgb(255 255 255 / 10%)',
+         transform: 'scale(1.05)'
       },
+   },
+   caption: {
+      fontWeight: 'bold',
    },
    video: {
       zIndex: -1,

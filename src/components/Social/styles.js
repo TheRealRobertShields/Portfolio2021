@@ -7,7 +7,7 @@ export default makeStyles((theme) => ({
       justifyContent: 'center',
       alignItems: 'center',
       width: '90vw',
-      height: '100vh',
+      minHeight: '100vh',
    },
    container: {
       display: 'flex',
@@ -36,7 +36,7 @@ export default makeStyles((theme) => ({
       fontWeight: '100',
       color: 'rgb(255 255 255 / 50%)',
       textDecoration: 'none',
-      transition: 'all 0.3s',
+      transition: 'all 0.2s',
       '&:hover': {
          color: 'rgb(255 255 255 / 100%)',
          background: 'rgb(255 255 255 / 6%)',

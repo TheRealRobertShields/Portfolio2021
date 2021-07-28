@@ -24,15 +24,15 @@ const Projects = () => {
          <div className={classes.container}>
             <a href='https://okisfreezedried.com' target='_blank' without rel="noreferrer" className={classes.card}>
                <img src={okisfreezedried} alt='okisfreezedried' style={{width: 'calc(150px + 10vw)'}} />
-               <p>OkisFreezedried</p>
+               <Typography variant='subtitle1' className={classes.caption}>OkisFreezedried</Typography>
             </a>
             <a href='https://data-doctor.netlify.app/' target='_blank' without rel="noreferrer" className={classes.card}>
                <img src={datadoctor} alt='datadoctor' style={{width: 'calc(150px + 10vw)'}} />
-               <p>DataDoctor</p>
+               <Typography variant='subtitle1' className={classes.caption}>DataDoctor</Typography>
             </a>
             <a href='https://fotogrid.netlify.app/' target='_blank' without rel="noreferrer" className={classes.card}>
                <img src={fotogrid} alt='fotogrid' style={{width: 'calc(150px + 10vw)'}} />
-               <p>FotoGrid</p>
+               <Typography variant='subtitle1' className={classes.caption}>FotoGrid</Typography>
             </a>
 
          </div>

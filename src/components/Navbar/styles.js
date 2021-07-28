@@ -12,22 +12,36 @@ export default makeStyles((theme) => ({
       fontSize: 'calc(12px + 1.25vw)',
       padding: 'calc(12px + 0.5vw)',
       lineHeight: 'calc(12px + 1.25vw)',
+      fontWeight: 'bold',
       marginRight: '1%',
+      width: 'fit-content',
       color: 'white',
       textDecoration: 'none',
+      textAlign: 'center',
+      transition: 'all 0.15s',
+      '&:hover': {
+         transform: 'scale(1.075)',
+      },
    },
    link: {
       ...theme.typography.button,
       fontSize: 'calc(10px + 0.5vw)',
-      padding: 'calc(1px + 0.125vw) 0',
-      marginRight: '2%',
-      lineHeight: 'calc(8px + 0.5vw)',
-      borderBottom: '1px solid #939393',
+      margin: '0 5%',
       color: 'white',
+      fontWeight: 'bold',
       textDecoration: 'none',
-      transition: 'all 0.3s',
+      transition: 'all 0.15s',
+      userSelect: 'none',
       '&:hover': {
-         borderBottom: '15px solid #939393',
+         transform: 'scale(1.15)'
       },
    },
+   navLinks: {
+      padding: 0,
+      margin: 0,
+      display: 'flex',
+      justifyContent: 'flex-end',
+      height: '20px',
+      alignItems: 'center',
+   }
 }));
