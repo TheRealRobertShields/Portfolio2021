@@ -16,7 +16,14 @@ img {
    border-radius: 4px;
 }
 
+.title {
+   display: flex;
+   justify-content: flex-start;
+   padding-left: 10px;
+}
 .titleAnimated::before {
+   display: flex;
+   justify-content: flex-end;
    content: 'Frontend ';
    animation: bideTime 5s linear infinite;
 }
