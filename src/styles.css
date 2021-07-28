@@ -18,30 +18,55 @@ img {
 
 .title {
    display: flex;
+   flex-direction: row;
    justify-content: flex-start;
    padding-left: 10px;
 }
 .titleAnimated::before {
    display: flex;
+   flex-direction: row;
    justify-content: flex-end;
-   content: 'Frontend ';
-   animation: bideTime 5s linear infinite;
+   content: 'Front-end ';
+   animation: before 5s linear infinite;
 }
-@keyframes bideTime {
+@keyframes before {
    0% {
-     content: "Frontend "
+     content: "Front-end "
    }
    25% {
-     content: "Backend "
+     content: "Back-end "
    }
    50% {
-     content: 'Fullstack '
+     content: 'Full-stack '
    }
    75% {
      content: 'Application '
    }
    100% {
-     content: 'Frontend '
+     content: 'Front-end '
    }
  }
+ .title::after {
+   padding-left: 10px;
+   content: ' 😀';
+   flex-direction: row;
+   animation: after 5s linear infinite;
+ }
+ @keyframes after {
+    0% {
+      content: " 😀"
+    }
+    25% {
+      content: " 😄"
+    }
+    50% {
+      content: ' 😁'
+    }
+    75% {
+      content: ' 😬'
+    }
+    100% {
+      content: ' 😀'
+    }
+  }
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
