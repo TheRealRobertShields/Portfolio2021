@@ -2,7 +2,6 @@ import { makeStyles } from '@material-ui/core/styles';
 
 export default makeStyles((theme) => ({
   app: {
-    background: 'linear-gradient(90deg, rgba(68,69,29,1) 0%, rgba(44,27,56,1) 50%, rgba(61,0,0,1) 100%)',
     color: 'white',
     display: 'flex',
     flexDirection: 'column',

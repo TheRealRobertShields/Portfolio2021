@@ -16,9 +16,9 @@ const Navbar = ({ font }) => {
                <Typography component={Link} to='/' className={classes.title}>
                   Robert Shields
                </Typography>
-               <Typography component={Link} to='/about' className={classes.link}>
+               {/* <Typography component={Link} to='/about' className={classes.link}>
                   About
-               </Typography>
+               </Typography> */}
                <Typography component={Link} to='/projects' className={classes.link}>
                   Projects
                </Typography>
