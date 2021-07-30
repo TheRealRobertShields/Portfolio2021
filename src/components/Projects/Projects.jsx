@@ -3,7 +3,7 @@ import React from 'react'
 import { Typography } from '@material-ui/core';
 
 // import thinking from '../../assets/thinking.mp4'
-import fotogrid from '../../assets/fotogrid_thumbnail.png'
+// import fotogrid from '../../assets/fotogrid_thumbnail.png'
 import okisfreezedried from '../../assets/okisfreezedried.png'
 import datadoctor from '../../assets/datadoctor.png'
 import useStyles from './styles';
@@ -30,10 +30,10 @@ const Projects = () => {
                <img src={datadoctor} alt='datadoctor' style={{width: 'calc(150px + 10vw)'}} />
                <Typography variant='subtitle1' className={classes.caption}>DataDoctor</Typography>
             </a>
-            <a href='https://fotogrid.netlify.app/' target='_blank' without rel="noreferrer" className={classes.card}>
+            {/* <a href='https://fotogrid.netlify.app/' target='_blank' without rel="noreferrer" className={classes.card}>
                <img src={fotogrid} alt='fotogrid' style={{width: 'calc(150px + 10vw)'}} />
                <Typography variant='subtitle1' className={classes.caption}>FotoGrid</Typography>
-            </a>
+            </a> */}
 
          </div>
       </div>
