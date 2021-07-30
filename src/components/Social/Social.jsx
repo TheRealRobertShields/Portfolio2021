@@ -16,15 +16,18 @@ const Social = () => {
             <div className={classes.container}>
                <a href='https://github.com/TheRealRobertShields' target='_blank' without rel="noreferrer" className={classes.card}>
                   <img src={Github} alt='github' />
-                  <p>TheRealRobertShields</p>
+                  {/* <p>TheRealRobertShields</p> */}
+                  <Typography variant='subtitle1' className={classes.caption}>GitHub</Typography>
                </a>
                <a href='https://www.linkedin.com/in/robert-shields-4b70541b6/' target='_blank' without rel="noreferrer" className={classes.card}>
                   <img src="https://img.icons8.com/color/48/000000/linkedin.png" alt='linkedin' />
-                  <p>Robert Shields</p>
+                  {/* <p>Robert Shields</p> */}
+                  <Typography variant='subtitle1' className={classes.caption}>LinkedIn</Typography>
                </a>
                <a href='mailto:robert.shields.dev@gmail.com?subject=Hello Robert!&body=My name is ...' className={classes.card}>
                   <img src="https://img.icons8.com/color/48/000000/gmail-new.png" alt='github' />
-                  <p>robert.shields.dev</p>
+                  {/* <p>robert.shields.dev</p> */}
+                  <Typography variant='subtitle1' className={classes.caption}>Gmail</Typography>
                </a>
             </div>
          </div>
